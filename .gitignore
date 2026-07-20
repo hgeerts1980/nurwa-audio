@@ -1,0 +1,3 @@
+# Werkmap van Codex-runs: ingebedde git-repo's en runtime-state die
+# een volledige `git add -A` doen falen.
+.codex-work/
