@@ -1,3 +1,8 @@
 # Werkmap van Codex-runs: ingebedde git-repo's en runtime-state die
 # een volledige `git add -A` doen falen.
 .codex-work/
+# Claude Code: enkel lokale en efemere artefacten. Gedeelde projectconfig
+# (.claude/skills, .claude/agents, .claude/launch.json, .claude/CLAUDE.md)
+# blijft bewust wel getrackt.
+.claude/settings.local.json
+.claude/worktrees/
